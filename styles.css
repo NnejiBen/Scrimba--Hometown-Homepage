@@ -1,0 +1,157 @@
+/*
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+*/
+
+* {
+    margin: 0;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+}
+
+img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+/* HERO SECTION */
+
+#hero-section {
+    background-image: url(images/lagos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 720px;
+    height: 343px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero--heading {
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+    background: #1D3557;
+    border-radius: 10px;
+    padding: 4px 12px;
+    margin: 192px auto 0 auto;
+}
+
+.hero--h2 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    color: white;
+    background: #457B9D;
+    padding: 4px 12px;
+    border-radius: 10px;
+    width: 50%;
+    margin: 10px auto 0;
+}
+
+/* ACTIVITIES SECTION */
+
+#act-section {
+    width: 720px;
+    margin: auto;
+    background: #F1FAEE;
+}
+
+.act--heading {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1D3557;
+    padding-top: 36px;
+}
+
+.top-act-section {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 40px auto auto;
+    padding: 0 32px 24px;
+}
+
+.act * {
+    color: #1D3557;
+    /* padding: 6px 32px; */
+}
+
+.act--h4 {
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+.act--par {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* GUIDE SECTION */
+
+#guide-section {
+    width: 400px;
+    margin: 50px auto 36px;
+    display: flex;
+    background: #A8DADC;
+    border-radius: 10px;
+    border-bottom: 5px solid black;
+    padding: 24px 4px 24px 14px;
+}
+
+#guide--img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.guide--text-area {
+    margin: 48px auto;
+}
+
+.guide--text-area * {
+    padding: 0px 4px 16px;
+    color: #1D3557;
+}
+
+.guide--heading {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.guide--profile {
+    font-weight: 400;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.guide--name {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* FOOTER SECTION */
+
+footer {
+    width: 720px;
+    margin: auto;
+}
+
+.footer--text {
+    font-size: 8px;
+    background: #F1FAEE;
+    padding: 8px;
+}
+
+/*RESPONSIVE MODE*/
+
+@media screen and (max-width: 720px) {
+
+
+}
