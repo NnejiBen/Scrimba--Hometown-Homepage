@@ -52,7 +52,6 @@ DARK BLUE: #1D3557
 /* ACTIVITIES SECTION */
 
 #act-section {
-    /* width: 720px; */
     width: 55%;
     margin: auto;
     background: #F1FAEE;
@@ -97,7 +96,6 @@ DARK BLUE: #1D3557
 /* GUIDE SECTION */
 
 #guide-section {
-    /* width: 400px; */
     width: 30%;
     margin: 50px auto 36px auto;
     display: flex;
@@ -148,7 +146,6 @@ DARK BLUE: #1D3557
 /* FOOTER SECTION */
 
 footer {
-    width: 55%;
     width: 55%;
     margin: auto;
 }
@@ -217,7 +214,7 @@ footer {
 /* GUIDE SECTION */
 
 #guide-section {
-    width: 60%;
+    width: 70%;
     flex-direction: column;
 }
 
