@@ -19,11 +19,19 @@ DARK BLUE: #1D3557
     background-image: url(images/lagos.png);
     background-repeat: no-repeat;
     background-size: 100% auto;
+    /* background-position: absolute; */
     width: 55%;
+    /* height: 90%; */
     height: 343px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    margin: auto;
+    /* padding: 125px 0; */
+    /* padding: 9% 0; */
     display: flex;
     flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* position: relative; */
 }
 
 .hero--heading {
@@ -33,7 +41,8 @@ DARK BLUE: #1D3557
     background: #F1FAEE;
     border-radius: 10px;
     padding: 4px 12px;
-    margin: 192px auto 0 auto;
+    /* margin: 192px auto 0 auto; */
+    margin: 25% auto 8px auto;
 }
 
 .hero--h2 {
@@ -44,8 +53,9 @@ DARK BLUE: #1D3557
     background: #316a66;
     padding: 4px 12px;
     border-radius: 10px;
-    width: 50%;
-    margin: 10px auto 0;
+    width: 45%;
+    /* margin: 10px auto 0; */
+    margin: 0 auto;
 }
 
 /* ACTIVITIES SECTION */
@@ -163,12 +173,13 @@ footer {
 
 #hero-section {
     width: 100%;
+    height: 264px;
     background-image: url(images/lagos-mobile.png);
 }
 
 .hero--heading {
     font-size: 28px;
-    margin: 172px auto 0 auto;
+    /* margin: 172px auto 0 auto; */
 }
 
 .hero--h2 {
