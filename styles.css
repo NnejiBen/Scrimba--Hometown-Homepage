@@ -13,18 +13,14 @@ DARK BLUE: #1D3557
     font-family: 'Barlow', sans-serif;
 }
 
-img {
-    width: 100px;
-    border-radius: 50%;
-}
-
 /* HERO SECTION */
 
 #hero-section {
     background-image: url(images/lagos.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 720px;
+    /* width: 720px; */
+    width: 55%;
     height: 343px;
     margin: 0 auto;
     display: flex;
@@ -56,7 +52,8 @@ img {
 /* ACTIVITIES SECTION */
 
 #act-section {
-    width: 720px;
+    /* width: 720px; */
+    width: 55%;
     margin: auto;
     background: #F1FAEE;
 }
@@ -81,6 +78,10 @@ img {
     color: #1D3557;
 }
 
+.act--image {
+    border-radius: 50%;
+}
+
 .act--h4 {
     font-weight: 700;
     font-size: 16px;
@@ -96,26 +97,35 @@ img {
 /* GUIDE SECTION */
 
 #guide-section {
-    width: 400px;
-    margin: 50px auto 36px;
+    /* width: 400px; */
+    width: 30%;
+    margin: 50px auto 36px auto;
     display: flex;
+    align-items: center;
+    justify-content: center;
     background: #A8DADC;
     border-radius: 10px;
-    border-bottom: 5px solid black;
-    padding: 24px 4px 24px 14px;
+    border-bottom: 5px solid #1D3557;
 }
 
-#guide--img {
-    width: 50%;
+.guide--img-cont {
+    display: flex;
+    align-items: center;
+    padding: 24px 0 24px 14px;
+}
+
+.guide--img {
     border-radius: 10px;
 }
 
 .guide--text-area {
-    margin: 48px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .guide--text-area * {
-    padding: 0px 4px 16px;
+    padding: 0px 10px 16px;
     color: #1D3557;
 }
 
@@ -138,7 +148,8 @@ img {
 /* FOOTER SECTION */
 
 footer {
-    width: 720px;
+    width: 55%;
+    width: 55%;
     margin: auto;
 }
 
@@ -150,7 +161,83 @@ footer {
 
 /*RESPONSIVE MODE*/
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 480px) {
 
+/* HERO SECTION */
 
+#hero-section {
+    width: 100%;
+    background-image: url(images/lagos-mobile.png);
+}
+
+.hero--heading {
+    font-size: 28px;
+    margin: 172px auto 0 auto;
+}
+
+.hero--h2 {
+    font-size: 16px;
+    border-radius: 10px;
+    width: 60%;
+}
+
+/* ACTIVITIES SECTION */
+
+#act-section {
+    width: 100%;
+}
+
+.act--heading {
+    font-size: 20px;
+}
+
+.top-act-section {
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.act * {
+    width: 60%;
+}
+
+.act--image {
+    width: 30%;
+}
+
+.act--h4 {
+    margin: 12px auto auto auto;
+}
+
+.act--par {
+    margin: 10px auto auto auto;
+}
+
+/* GUIDE SECTION */
+
+#guide-section {
+    width: 60%;
+    flex-direction: column;
+}
+
+.guide--img {
+    border-radius: 10px;
+}
+
+.guide--heading {
+    font-size: 20px;
+}
+
+.guide--profile {
+    font-size: 14px;
+}
+
+.guide--name {
+    font-size: 14px;
+}
+
+footer {
+    width: 100%;
+}
 }
