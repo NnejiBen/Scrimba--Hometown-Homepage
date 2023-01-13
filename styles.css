@@ -218,6 +218,10 @@ footer {
     flex-direction: column;
 }
 
+.guide--img-cont {
+    padding: 20px 0;
+}
+
 .guide--img {
     border-radius: 10px;
 }
